@@ -1,6 +1,4 @@
-*,
-*::before,
-*::after {
+*{
     box-sizing: border-box;
 }
 body{
@@ -53,9 +51,12 @@ article{
     display: inline-block;
     background-color: #e0e0e0;
     text-align: center;
-    vertical-align: center;
-
 }
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
 aside{
 
     background-color: rgb(136, 136, 136);
@@ -84,6 +85,7 @@ aside{
     padding-left: 15px;
     padding-top: 10px;
     height: 387px;
+
 }
 
 footer{
@@ -96,4 +98,10 @@ footer{
 a:active, a:visited {
     color: black;
     text-decoration: none;
+}
+
+footer img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
 }
